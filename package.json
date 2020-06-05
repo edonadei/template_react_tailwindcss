@@ -14,8 +14,8 @@
   },
   "scripts": {
     "start": "npm run build:style && react-scripts start",
+    "build": "npm run build:style && react-scripts build",
     "build:style": "npx tailwind build src/styles/index.css -o src/styles/tailwind.css",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
